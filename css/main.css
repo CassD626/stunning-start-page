@@ -82,3 +82,13 @@ h2 {
   margin: 0 0 1.5rem;
   font-family: "PT Sans Narrow", sans-serif;
 }
+
+section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
