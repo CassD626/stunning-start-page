@@ -92,3 +92,16 @@ section ul {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+
+section ul li {
+  background-color: #ccc;
+  border: 2px solid #afafaf;
+  border-radius: 6px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "top"
+  "middle"
+  "bottom";
+}
